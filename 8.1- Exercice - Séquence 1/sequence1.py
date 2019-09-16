@@ -4,3 +4,10 @@
 
 a = 11
 b = 42
+
+N = a 
+a = b
+b = N
+
+print ("la valeur de a est ", a)
+print ("la valeur de b est ", b)
