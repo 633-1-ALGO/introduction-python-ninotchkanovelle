@@ -6,3 +6,17 @@
 # Indication :   L'alignement rectiligne n'est pas une contrainte, tant que la table est visible ligne par ligne c'est ok.
 #               Si vous êtes perfectionnistes faites vous plaisir.
 liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+i = 0
+n = len(liste)
+j = 1
+somme = 0
+while i < n:
+    i= i+ 1
+    somme=0;
+    while j < n:
+        somme = liste[i]*liste[j]
+        print(somme)
+        j=j+1
+
+

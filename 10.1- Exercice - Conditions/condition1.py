@@ -4,3 +4,12 @@
 # Indications :  Vous pouvez changer les valeurs des variables pour vos tests.
 c = 42
 d = 31
+somme = 0
+
+somme = c + d
+if somme < 0 :
+    print("Produit négatif")
+elif somme == 0 :
+    print("Produit nul")
+else:
+    print("Produit positif")

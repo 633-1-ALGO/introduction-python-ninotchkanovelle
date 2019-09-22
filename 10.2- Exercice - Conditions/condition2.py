@@ -7,3 +7,22 @@
 #                       Sinon, elle est bissextile.
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
+
+a = 2000
+mult = 4
+
+somme = a%4
+
+multcent = a%100
+multquatrecent = a%400
+
+
+if somme > 0:
+    print("Année non bissextile")
+elif multcent > 0 and multquatrecent > 0:
+    print("Année non bissextile")
+else:
+    print("Année bissextile")
+
+
+
